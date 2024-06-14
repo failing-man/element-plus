@@ -5,7 +5,7 @@
         <el-menu :default-openeds="['1', '3']">
           <el-sub-menu index="1">
             <template #title>
-              <el-icon><message /></el-icon>Navigator One
+              <el-icon><message /></el-icon>圈舍编号
             </template>
             <el-menu-item-group>
               <template #title>Group 1</template>
@@ -22,7 +22,7 @@
           </el-sub-menu>
           <el-sub-menu index="2">
             <template #title>
-              <el-icon><icon-menu /></el-icon>Navigator Two
+              <el-icon><icon-menu /></el-icon>数据变化
             </template>
             <el-menu-item-group>
               <template #title>Group 1</template>
@@ -39,7 +39,7 @@
           </el-sub-menu>
           <el-sub-menu index="3">
             <template #title>
-              <el-icon><setting /></el-icon>Navigator Three
+              <el-icon><setting /></el-icon>管理员列表
             </template>
             <el-menu-item-group>
               <template #title>Group 1</template>
